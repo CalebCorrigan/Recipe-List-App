@@ -17,6 +17,7 @@
 		EB45B4BF286A34EE007959B4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45B4BE286A34EE007959B4 /* DataService.swift */; };
 		EB45B4C2286B3820007959B4 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45B4C1286B3820007959B4 /* RecipeDetailView.swift */; };
 		EB4CDE34286CABCA0052B105 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CDE33286CABCA0052B105 /* RecipeTabView.swift */; };
+		EB4CDE36286CCDE80052B105 /* RecipeFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CDE35286CCDE80052B105 /* RecipeFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EB45B4BE286A34EE007959B4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EB45B4C1286B3820007959B4 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		EB4CDE33286CABCA0052B105 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		EB4CDE35286CCDE80052B105 /* RecipeFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				EB45B4C1286B3820007959B4 /* RecipeDetailView.swift */,
 				EB45B4A7286A30C9007959B4 /* ContentView.swift */,
 				EB4CDE33286CABCA0052B105 /* RecipeTabView.swift */,
+				EB4CDE35286CCDE80052B105 /* RecipeFeatureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB45B4BB286A32C7007959B4 /* Recipe.swift in Sources */,
+				EB4CDE36286CCDE80052B105 /* RecipeFeatureView.swift in Sources */,
 				EB45B4C2286B3820007959B4 /* RecipeDetailView.swift in Sources */,
 				EB45B4BD286A32DA007959B4 /* RecipeModel.swift in Sources */,
 				EB45B4A8286A30C9007959B4 /* ContentView.swift in Sources */,
