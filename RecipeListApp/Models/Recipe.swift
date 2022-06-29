@@ -18,6 +18,18 @@ class Recipe: Identifiable, Decodable {
     var cookTime:String
     var totalTime:String
     var servings:Int
-    var ingredients:[String]
+    var highlights:[String]
+    var ingredients:[Ingredients]
     var directions:[String]
+    
+}
+
+//This can be in a new swift file under the model folder
+class Ingredients: Identifiable, Decodable {
+    
+    var id:UUID?
+    var name:String
+    var num:Int? //? becuase it is an option and we do not know if it will return a value
+    var denom:Int?
+    var unit:String?
 }

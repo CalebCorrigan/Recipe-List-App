@@ -39,6 +39,12 @@ class DataSevice {
                 //add unique IDs
                 for r in recipeData {
                     r.id = UUID()
+                    
+                    //Add unqiue IDs to recipe ingredients
+                    for i in r.ingredients {
+                        i.id = UUID() 
+                        
+                    }
                 }
                 
                 
