@@ -87,10 +87,10 @@
 		EB45B4B3286A3198007959B4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EB4CDE35286CCDE80052B105 /* RecipeFeatureView.swift */,
 				EB45B4C1286B3820007959B4 /* RecipeDetailView.swift */,
 				EB45B4A7286A30C9007959B4 /* ContentView.swift */,
 				EB4CDE33286CABCA0052B105 /* RecipeTabView.swift */,
-				EB4CDE35286CCDE80052B105 /* RecipeFeatureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
