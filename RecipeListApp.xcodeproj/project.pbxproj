@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB2D7F92286F87AF002052BE /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D7F91286F87AF002052BE /* Rational.swift */; };
+		EB2D7F942874E7AA002052BE /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D7F932874E7AA002052BE /* RecipeHighlights.swift */; };
 		EB45B4A6286A30C9007959B4 /* RecipeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45B4A5286A30C9007959B4 /* RecipeListApp.swift */; };
 		EB45B4A8286A30C9007959B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB45B4A7286A30C9007959B4 /* ContentView.swift */; };
 		EB45B4AA286A30CC007959B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB45B4A9286A30CC007959B4 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		EB2D7F91286F87AF002052BE /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		EB2D7F932874E7AA002052BE /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
 		EB45B4A2286A30C9007959B4 /* RecipeListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB45B4A5286A30C9007959B4 /* RecipeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListApp.swift; sourceTree = "<group>"; };
 		EB45B4A7286A30C9007959B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				EB45B4C1286B3820007959B4 /* RecipeDetailView.swift */,
 				EB45B4A7286A30C9007959B4 /* ContentView.swift */,
 				EB4CDE33286CABCA0052B105 /* RecipeTabView.swift */,
+				EB2D7F932874E7AA002052BE /* RecipeHighlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				EB45B4BB286A32C7007959B4 /* Recipe.swift in Sources */,
 				EB4CDE36286CCDE80052B105 /* RecipeFeatureView.swift in Sources */,
+				EB2D7F942874E7AA002052BE /* RecipeHighlights.swift in Sources */,
 				EB2D7F92286F87AF002052BE /* Rational.swift in Sources */,
 				EB45B4C2286B3820007959B4 /* RecipeDetailView.swift in Sources */,
 				EB45B4BD286A32DA007959B4 /* RecipeModel.swift in Sources */,
